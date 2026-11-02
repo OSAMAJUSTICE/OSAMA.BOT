@@ -1,0 +1,96 @@
+{
+  "brand": "『♔𝙄𝙈 𝐘𝙊𝐔𝐑 𝐃𝘼𝐃𝐃𝐘♔』",
+  "dashboard": {
+    "enabled": true
+  },
+  "welcome": {
+    "enabled": false,
+    "channelId": "",
+    "message": "Welcome {user} to **{server}**!"
+  },
+  "goodbye": {
+    "enabled": false,
+    "channelId": "",
+    "message": "{user} has left the server."
+  },
+  "logs": {
+    "enabled": false,
+    "channelId": "",
+    "trackPresence": true,
+    "trackProfileImages": true,
+    "trackVoice": true,
+    "trackStreams": true
+  },
+  "autorole": {
+    "enabled": false,
+    "roleId": ""
+  },
+  "tickets": {
+    "enabled": true,
+    "supportRoleId": "",
+    "categoryId": ""
+  },
+  "tempVoice": {
+    "enabled": false,
+    "createChannelId": "",
+    "categoryId": "",
+    "createTextChannel": true
+  },
+  "moderation": {
+    "adminRoleIds": [],
+    "moderatorRoleIds": []
+  },
+  "automod": {
+    "enabled": true,
+    "maxMessages": 6,
+    "intervalMs": 7000,
+    "timeoutMs": 60000,
+    "blockInvites": false
+  },
+  "economy": {
+    "dailyAmount": 250,
+    "startingBalance": 0,
+    "maxCoinflipBet": 10000
+  },
+  "starboard": {
+    "enabled": false,
+    "channelId": "",
+    "threshold": 3
+  },
+  "suggestions": {
+    "enabled": true,
+    "channelId": ""
+  },
+  "giveaways": {
+    "enabled": true
+  },
+  "levels": {
+    "enabled": false,
+    "xpPerMessage": 5,
+    "cooldownMs": 60000
+  },
+  "antiRaid": {
+    "enabled": false,
+    "joinThreshold": 8,
+    "intervalMs": 15000,
+    "alertChannelId": ""
+  },
+  "verification": {
+    "enabled": false,
+    "channelId": "",
+    "roleId": ""
+  },
+  "badgeRoles": {},
+  "accountAgeProtection": {
+    "enabled": false,
+    "minDays": 7,
+    "logChannelId": ""
+  },
+  "activityRoles": {
+    "enabled": false,
+    "minecraftRoleId": "",
+    "robloxRoleId": "",
+    "vscodeRoleId": "",
+    "streamingRoleId": ""
+  }
+}
